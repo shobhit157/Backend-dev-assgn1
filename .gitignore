@@ -6,4 +6,4 @@ target/
 .idea/
 bin/
 .settings/
-src/main/resources/application.properties
+
