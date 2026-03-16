@@ -13,7 +13,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="user")
+@Table(name="app_user")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -33,5 +33,6 @@ public class User {
 	    private String password;
 
 	    @Enumerated(EnumType.STRING)
+	    @Column(nullable = false)
 	    private Role role;
 }
