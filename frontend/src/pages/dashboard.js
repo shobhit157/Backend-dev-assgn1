@@ -43,7 +43,7 @@ return(
       <ul>
         {tasks.map((task) => (
           <li key={task.id}>
-            <strong>{task.title}</strong> - {task.description} ({task.status})
+            <strong>{task.title}</strong> - {task.description}
           </li>
         ))}
       </ul>
