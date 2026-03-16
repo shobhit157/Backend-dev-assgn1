@@ -4,7 +4,7 @@ import TaskForm from "../components/TaskForm";
 
 function Dashboard(){
 
-const [tasks,setTasks] = useState([]);
+const [tasks, setTasks] = useState([]);
 
 const fetchTasks = async()=>{
 try{
@@ -37,6 +37,16 @@ return(
 <h2>Task Dashboard</h2>
 
 <TaskForm addTask={addTask}/>
+
+<h3>Task List</h3>
+
+      <ul>
+        {tasks.map((task) => (
+          <li key={task.id}>
+            <strong>{task.title}</strong> - {task.description}
+          </li>
+        ))}
+      </ul>
 
 
 </div>
