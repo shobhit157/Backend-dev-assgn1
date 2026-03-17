@@ -8,7 +8,6 @@ It demonstrates a full-stack setup with REST APIs, dashboard functionality, and 
 ## 🛠️ Features
 - Interactive dashboard for user data  
 - CRUD operations through REST APIs  
-- Responsive design for desktop and mobile  
 - Optional JWT-based authentication  
 - Swagger API documentation for easy API exploration  
 
