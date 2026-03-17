@@ -1,4 +1,4 @@
-[![Frontend Live] (https://backend-dev-assgn1.vercel.app/)  
+[![Frontend Live](https://img.shields.io/badge/Frontend-Live-brightgreen)](https://backend-dev-assgn1.vercel.app/)  
 [![API Docs](https://img.shields.io/badge/Swagger-Docs-blue)](https://java-backend-app5.onrender.com/swagger-ui/index.html)  
 
 ## 🚀 Project Overview
