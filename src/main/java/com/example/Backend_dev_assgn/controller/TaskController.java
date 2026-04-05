@@ -47,5 +47,10 @@ public class TaskController {
         taskService.deleteTask(id);
         return "Task deleted successfully";
     }
+    
+    @GetMapping("/test-deploy")
+    public String testDeploy() {
+        return "deploy test v1";
+    }
 
 }
